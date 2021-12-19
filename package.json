@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "node index",
-    "start": "node main.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",

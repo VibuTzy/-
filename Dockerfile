@@ -36,13 +36,13 @@ RUN npm install
 
 #RUN npm install yt-search@^2.10.2
 
-RUN mkdir /newself
+RUN mkdir /botb4
 
-WORKDIR /newself
+WORKDIR /botb4
 
-COPY . /newself
+COPY . /botb4
 
-RUN python3 -m pip install -r /newself/requirements.txt
+RUN python3 -m pip install -r /botb4/requirements.txt
 
 ENV TZ=Asia/Jakarta
 
